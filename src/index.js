@@ -39,4 +39,4 @@ class Root extends Component {
 
 export default Root;
 
-ReactDOM.render(<Root />, document.getElementById('beton-new'));
+ReactDOM.render(<Root />, document.getElementById('beton'));
