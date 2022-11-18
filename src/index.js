@@ -28,7 +28,7 @@ class Root extends Component {
                         <Route  path="/property" component={Propterty} />
                         <Route  path="/about" component={About} />
                         <Route  path="/team" component={Team} />
-                        <Route  path="/test" component={ProptertyDetails} />
+                        <Route  path="/details/:id" component={ProptertyDetails} />
                         <Route  path="/contact" component={Contact} />
 	                </Switch>
 	                </div>
