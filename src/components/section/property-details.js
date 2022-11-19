@@ -32,15 +32,10 @@ class PropertyDetails extends Component {
 			          </div>
 			          <div className="col-lg-5 text-lg-right">
 			            <h4>$ 80,650.00</h4>
-			            <div className="btn-wrap">
-			              <a className="btn btn-base btn-sm" href="#">BUILD</a>
-			              <a className="btn btn-blue btn-sm" href="#">BUY</a>
-			              <a className="btn btn-blue btn-sm" href="#">RENT</a>
-			            </div>
+			            
 			            <ul>
-			              <li><img src={publicUrl+"assets/img/icon/1.png"} alt="img" />Marce 9 , 2020</li>
-			              <li><img src={publicUrl+"assets/img/icon/2.png"} alt="img" />4263</li>
-			              <li><img src={publicUrl+"assets/img/icon/3.png"} alt="img" />68</li>
+			             
+			              <li><img src={publicUrl+"assets/img/icon/3.png"} alt="img" />Negotiable</li>
 			            </ul>
 			          </div>
 			        </div>
