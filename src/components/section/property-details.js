@@ -118,32 +118,8 @@ class PropertyDetails extends Component {
 			              </div>
 			            </div>
 			          </div>
-			          <div className="single-property-grid">
-			            <h4>Amenities</h4>
-			            <div className="row">
-			              <div className="col-md-4">
-			                <ul>
-			                  <li><i className="fa fa-check" />Air Conditionar</li>
-			                  <li><i className="fa fa-check" />Fencing</li>
-			                  <li><i className="fa fa-check" />Internet</li>
-			                </ul>
-			              </div>
-			              <div className="col-md-4">
-			                <ul>
-			                  <li><i className="fa fa-check" />Wardrobes</li>
-			                  <li><i className="fa fa-check" />School</li>
-			                  <li><i className="fa fa-check" />Park</li>
-			                </ul>
-			              </div>
-			              <div className="col-md-4">
-			                <ul>
-			                  <li><i className="fa fa-check" />Dishwasher</li>
-			                  <li><i className="fa fa-check" />Floor Covering</li>
-			                  <li><i className="fa fa-check" />Internet</li>
-			                </ul>
-			              </div>
-			            </div>
-			          </div>
+			          
+			              
 			          <div className="single-property-grid">
 			            <h4>Additional Details</h4>
 			            <div className="row">
@@ -331,13 +307,17 @@ class PropertyDetails extends Component {
 			      <div className="col-lg-4">
 			        <aside className="sidebar-area">
 			          <div className="widget widget-author text-center">
-			            <h4 className="widget-title">About Me</h4>
+			            <h4 className="widget-title">Information </h4>
 			            <div className="thumb">
-			              <img src={publicUrl+"assets/img/agent/1.png"} alt="img" />
+			             
 			            </div> 
 			            <div className="details">
-			              <h5>Sandara Mrikon</h5>
-			              <p>Lorem ipsum dolor amet, Lore ipsum dolor sit amet, consectetur et  eiLorem ipsum dolor sit amet</p>
+			             
+			              <p>For more information or to visit house, Use the chat button at the bottom or call/text us by information's below</p>
+						  <p>Phone: 0905404444  0906404444</p>
+						  <p>Telegram:</p>
+						  <p>Email:
+betonproperties@gmail.com</p>
 			              <ul>
 			                <li><a href="#"><i className="fab fa-facebook-f" aria-hidden="true" /></a></li>
 			                <li><a href="#"><i className="fab fa-linkedin-in" aria-hidden="true" /></a></li>
