@@ -8,21 +8,27 @@ import axios from 'axios'
 
 const PropertyDetails = () => {
     
-    const _id = '6374d73efffcad35d370df6d'
+    // const _id = '6374d73efffcad35d370df6d'
     const { id } = useParams();
     const [data, setData] = useState();
 
     useEffect(()=>{
 		axios.get(`http://gojo-ethiopia-api.herokuapp.com/api/property/most-viewed-properties/?page=1`)
 		.then((res)=>{
-			setData(res.data.properties[6])
-            
+			// setData(res.data.properties[6])
+            for(let i = 0; i < res.data.properties.length; i++){
+                if(res.data.properties[i]._id === id){
+                    setData(res.data.properties[i])
+                    break;
+                }
+            }
 					})
 		.catch((err)=>{
 			console.log(err, "asdc")
 		})
 	},[])
 
+    
     return <div>
         <Navbar />
         <PageHeader headertitle="Property Details"  />

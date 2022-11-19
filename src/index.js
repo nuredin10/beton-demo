@@ -11,10 +11,6 @@ import About from './components/about';
 import Team from './components/team';
 import Contact from './components/contact';
 
-
-
-
-
 class Root extends Component {
     render() {
         return(

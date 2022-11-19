@@ -4,25 +4,10 @@ import parse from 'html-react-parser';
 import { useEffect,useState } from 'react';
 import axios from 'axios'
 
-const PropertyGrid = ()=>{
+const PropertyGrid = ({data, totalPage, setSelectedPage, selectedPage})=>{
 	let publicUrl = process.env.PUBLIC_URL+'/'
-	const [data, setData] = useState([])
-	const [totalPage, setTotalPage] = useState();
-	const [currentPage, setCurrentPage] = useState()
-	const [selectedPage, setSelectedPage] = useState(1);
-
-	useEffect(()=>{
-		axios.get(`http://gojo-ethiopia-api.herokuapp.com/api/property/most-viewed-properties/?page=${selectedPage}`)
-		.then((res)=>{
-			setData(res.data.properties)
-			setTotalPage(res.data.totalPages)
-			setCurrentPage(res.data.currentPage)
-			console.log(res.data)
-		})
-		.catch((err)=>{
-			console.log(err, "asdc")
-		})
-	},[selectedPage])
+	
+	
 	return <div className="blog-page-area pt-5 go-top">
 			  <div className="container">
 			    <div className="row justify-content-center">
