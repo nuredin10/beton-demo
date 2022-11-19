@@ -86,7 +86,7 @@ class PropertyDetails extends Component {
 			    <div className="row go-top">
 			      <div className="col-lg-8">
 			        <div className="single-property-details-inner">
-			          <h4>Daily Apartment</h4>
+			          <h4>About the House</h4>
 			          <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
 			          <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetuLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 			          <div className="single-property-grid">
@@ -94,26 +94,26 @@ class PropertyDetails extends Component {
 			            <div className="row">
 			              <div className="col-md-4">
 			                <ul>
-			                  <li>Bedrooms: 3</li>
-			                  <li>All Rooms: 12</li>
-			                  <li>Kitchen: 2</li>
-			                  <li>Type: Privet House</li>
+			                  <li>Status: For Sale</li>
+			                  <li>Bedrooms: 12</li>
+			                  <li>Bathroom: 2</li>
+			                  <li>House Type: Apartment</li>
 			                </ul>
 			              </div>
 			              <div className="col-md-4">
 			                <ul>
-			                  <li>Bedrooms: 3</li>
-			                  <li>Livingroom: 2</li>
-			                  <li>Year Built: 2020</li>
-			                  <li>Area: 1258</li>
+			                  <li>Total Sqft: 380</li>
+			                  <li>Covered Area: 290</li>
+			                  <li>Floor: 3</li>
+			                  <li>Year Built: 2019</li>
 			                </ul>
 			              </div>
 			              <div className="col-md-4">
 			                <ul>
-			                  <li>Bedrooms: 3</li>
+			                 
 			                  <li>All Rooms: 12</li>
-			                  <li>Kitchen: 2</li>
-			                  <li>Type: Privet House</li>
+			                  <li>House ID: S053</li>
+			                  <li>Type: Private House</li>
 			                </ul>
 			              </div>
 			            </div>
