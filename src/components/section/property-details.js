@@ -146,21 +146,7 @@ class PropertyDetails extends Component {
 			              </div>
 			            </div>
 			          </div>
-			          <div className="single-property-grid">
-			            <h4>Proparty Attachment</h4>
-			            <div className="row">
-			              <div className="col-sm-6">
-			                <a href="PDFLINK" download>
-			                  <img src={publicUrl+"assets/img/icon/9.png"} alt="img" />
-			                </a>
-			              </div>
-			              <div className="col-sm-6 mt-2 mt-sm-0">
-			                <a href="PDFLINK" download>
-			                  <img src={publicUrl+"assets/img/icon/9.png"} alt="img" />
-			                </a>
-			              </div>
-			            </div>
-			          </div>
+			        
 			          <div className="single-property-grid">
 			            <h4>Estate Location</h4>
 			            <div className="property-map">
@@ -326,17 +312,7 @@ betonproperties@gmail.com</p>
 			              </ul>
 			            </div>        
 			          </div>
-			          <div className="widget widget-category">
-			            <h5 className="widget-title">Category</h5>
-			            <ul>
-			              <li><a href="#">Design <span>26</span></a></li>
-			              <li><a href="#">Villa House <span>20</span></a></li>
-			              <li><a href="#">Business <span>21</span></a></li>
-			              <li><a href="#">Global World <span>31</span></a></li>
-			              <li><a href="#">Technology <span>12</span></a></li>
-			              <li><a href="#">Ui Design <span>12</span></a></li>
-			            </ul>
-			          </div>
+			          
 			          <div className="widget widget-place">
 			            <h5 className="widget-title">Place</h5>
 			            <ul>
