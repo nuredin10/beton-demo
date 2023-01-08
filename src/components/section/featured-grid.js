@@ -6,7 +6,7 @@ import axios from 'axios'
 
 const PropertyGrid = ({data, totalPage, setSelectedPage, selectedPage})=>{
 	let publicUrl = process.env.PUBLIC_URL+'/'
-	
+	const backUrl = '/details/';
 	
 	return <div className="blog-page-area pt-5 go-top">
 			  <div className="container">
@@ -45,7 +45,7 @@ const PropertyGrid = ({data, totalPage, setSelectedPage, selectedPage})=>{
 			            </div> 
 			          </div> 
 			          <div className="product-details-inner">
-			            <h4>  <li><Link to={`/details/${e._id}`} params={{ testvalue: "hello" }}>{e.type === 'for_rent' ? 'Rental' : e.type}</Link></li></h4>
+			            <h4>  <li><Link to={`/details/${selectedPage}/${e._id}`} /* to={`/details/${selectedPage}/${e._id}`} */ >{e.type === 'for_rent' ? 'Rental' : e.type}</Link></li></h4>
 			            <ul className="meta-inner">
 			            </ul>
 			            <p>{e.address}</p>

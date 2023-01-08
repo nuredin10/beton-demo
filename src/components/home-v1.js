@@ -36,7 +36,7 @@ const Home_V1 = () => {
         <Navbar />
         <Banner setData={setData}/>
         <Service />
-        <PropertyGrid data={data} selectedPage = {selectedPage} setSelectedPage = {selectedPage} totalPage = {totalPage}/>
+        <PropertyGrid data={data} selectedPage = {selectedPage} setSelectedPage = {setSelectedPage} totalPage = {totalPage}/>
         <Testimonial />
         <Agent />
         <Footer />
